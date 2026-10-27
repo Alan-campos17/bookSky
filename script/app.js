@@ -1,15 +1,14 @@
-function retornarNomeCompleto(params) {
 const livro = {
-    titulo: "Como Fazer Amigos e Influenciar Pessoas",
-    autor: "Dale Carnegie",
-    anoPublicacao: 1936,
-    qtPagina: 65,
-    categoria: "Desenvolvimento pessoal",
-    idioma: "Português",
-    disponivel: true,
-    avaliacao: 4.5,
-    descricao: "Livro com conselhos práticos para melhorar a comunicação e o relacionamento com as pessoas.",
-}
-}
+  titulo: 'God of War',
+  autor: 'Exemplo',
+  status: 'Disponível'
+};
 
-console.log(javascript conectado);
+const catalogo = document.querySelector('#catalogo');
+
+const titulo = document.createElement('h3');
+titulo.textContent = 'God of War';
+
+catalogo.append(titulo);
+
+console.log(livro.titulo);
